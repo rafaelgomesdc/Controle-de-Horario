@@ -1,4 +1,3 @@
-import time
 import flet as ft
 import asyncio
 
