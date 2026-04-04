@@ -1,5 +1,5 @@
 import flet as ft
-from program.view import home, config
+from app.view import home, config
 
 def Route(page):
     match page.route: #Verifica a rota (route) atual
