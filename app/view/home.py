@@ -5,10 +5,10 @@ class Home_view():
     def __init__(self, page: ft.Page):
         self.page = page
         self.running = False;
-        self.time = 3600
+        self.time = 8 * 3600
 
     def build(self):
-        self.ui_clock = ft.Text(value="00:00:00")
+        self.ui_clock = ft.Text(value="08:00:00")
         self.ui_bt_clock = ft.ElevatedButton("CLOCK", on_click=self.Clock_Start)
         self.ui_config_button = ft.ElevatedButton("CONFIG", on_click=self.go_config)
         return ft.Column(
